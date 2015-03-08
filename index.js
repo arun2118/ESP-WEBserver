@@ -3,13 +3,11 @@
 $( function() {
 	
 
-	  $.getJSON("‪D:\Program Files\nodejs\server.js",function(result){
+	  $.getJSON("‪/e",function(result){
 		$.each(result, function(i, field){
 /* 		  $("#DataFromESP").append(field + " "); */
 		});
 	  });
-
-		    
 
 	
     $("#ClearButton").click( function() {
