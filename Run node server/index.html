@@ -1,0 +1,49 @@
+<html lang="en">
+	<title>Port61 Webserver</title>
+
+<head>
+	<script>
+		function changeScreenSize(w,h)
+		{
+		window.resizeTo( w,h )
+		}	 
+	</script>
+	<link rel="shortcut icon" href="favicon.ico" >
+	<meta charset="UTF-8">
+</head> 
+
+<body bgcolor="#ffe4c4" onload="changeScreenSize(500,300)">
+
+
+<center>
+	 <h1>AC Control</h1>
+	
+	
+
+	<button id="AC">
+	<span  class="ui-button-text">AC</span>	
+	</button>
+
+	</button>
+
+
+	<button id="HEAT">
+	<span class="ui-button-text">HEAT</span>
+	</button>
+
+
+	<button id="OFF">
+	<span class="ui-button-text">OFF</span>
+	</button><p>
+
+	
+
+	<span style="color:red; font-size:160%" id="DataFromESP"></span><p>
+		
+	<h5>By: XXXX</h5>
+</center>
+</body>
+</html>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/index.js"></script>
